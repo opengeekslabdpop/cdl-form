@@ -1,13 +1,13 @@
 @font-face {
   font-family: "GT America";
-  src: url("../public/fonts/GT-America-Compressed-Black-Italic.eot"),
-    url("../public/fonts/GT-America-Compressed-Black-Italic.otf")
+  src: url("https://cdn.jsdelivr.net/gh/opengeekslabdpop/cdl-form/static/fonts/GT-America-Compressed-Black-Italic.eot"),
+    url("https://cdn.jsdelivr.net/gh/opengeekslabdpop/cdl-form/static/fonts/GT-America-Compressed-Black-Italic.otf")
       format("opentype"),
-    url("../public/fonts/GT-America-Compressed-Black-Italic.ttf")
+    url("https://cdn.jsdelivr.net/gh/opengeekslabdpop/cdl-form/static/fonts/GT-America-Compressed-Black-Italic.ttf")
       format("truetype"),
-    url("../public/fonts/GT-America-Compressed-Black-Italic.woff")
+    url("https://cdn.jsdelivr.net/gh/opengeekslabdpop/cdl-form/static/fonts/GT-America-Compressed-Black-Italic.woff")
       format("woff"),
-    url("../public/fonts/GT-America-Compressed-Black-Italic.woff2")
+    url("https://cdn.jsdelivr.net/gh/opengeekslabdpop/cdl-form/static/fonts/GT-America-Compressed-Black-Italic.woff2")
       format("woff2");
   font-style: bold;
   font-weight: 900;

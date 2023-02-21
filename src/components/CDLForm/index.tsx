@@ -219,9 +219,9 @@ export default function CDLForm() {
   };
 
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row">
-        <div className="col-12 col-lg-9 col-xl-8 mx-auto">
+        <div className="col-12">
           <div className={styles.wrapper}>
             {currentStep == 0 ? (
               <SuccessfulSending firstName={firstName} />

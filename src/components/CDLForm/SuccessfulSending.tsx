@@ -14,7 +14,7 @@ const SuccessfulSending = ({ firstName }: { firstName: string }) => {
     <div className={styles.body}>
       <div className={styles.successfulIcon}>
         <img
-          src="/images/check-successful.svg"
+          src="https://cdn.jsdelivr.net/gh/opengeekslabdpop/cdl-form/static/images/check-successful.svg"
           alt="check-successful"
           width={81}
           height={81}
