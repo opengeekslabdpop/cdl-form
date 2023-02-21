@@ -45,7 +45,7 @@
   color: #6d6d6d;
 }
 .cdl-wrapper {
-  margin-top: 32px;
+  margin: 32px auto;
 }
 @media only screen and (max-width: 767px) {
   .cdl-wrapper {
