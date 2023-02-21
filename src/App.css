@@ -1,0 +1,366 @@
+@font-face {
+  font-family: "GT America";
+  src: url("../public/fonts/GT-America-Compressed-Black-Italic.eot"),
+    url("../public/fonts/GT-America-Compressed-Black-Italic.otf")
+      format("opentype"),
+    url("../public/fonts/GT-America-Compressed-Black-Italic.ttf")
+      format("truetype"),
+    url("../public/fonts/GT-America-Compressed-Black-Italic.woff")
+      format("woff"),
+    url("../public/fonts/GT-America-Compressed-Black-Italic.woff2")
+      format("woff2");
+  font-style: bold;
+  font-weight: 900;
+}
+@import url(//fonts.googleapis.com/css?family=Roboto:700,400,500,300);
+@import url(//fonts.googleapis.com/css?family=Roboto+Condensed:700,400,500,300);
+
+.cdl-wrapper {
+  background: #e8e9ea;
+  border-radius: 12px;
+  padding: 30px 35px 30px 25px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  max-width: 667px;
+}
+.CDLForm_title {
+  font-family: "GT America";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 32px !important;
+  line-height: 39px !important;
+  color: #000000;
+}
+@media only screen and (max-width: 767px) {
+  .CDLForm_title {
+    margin-bottom: 20px;
+  }
+}
+.CDLForm_subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #6d6d6d;
+}
+.cdl-wrapper {
+  margin-top: 32px;
+}
+@media only screen and (max-width: 767px) {
+  .cdl-wrapper {
+    margin-top: 20px;
+  }
+}
+.CDLForm_properties {
+  margin-bottom: 26px;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 767px) {
+  .CDLForm_properties {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.CDLForm_property {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 30px;
+}
+.CDLForm_property i {
+  font-size: 22px;
+}
+.CDLForm_property:last-child {
+  margin-right: 0;
+}
+.CDLForm_property span {
+  margin-left: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+}
+@media only screen and (max-width: 767px) {
+  .CDLForm_property {
+    margin-bottom: 12px;
+  }
+}
+.CDLForm_button {
+  background: #011627;
+  margin-top: 25px;
+  padding: 10px;
+  font-family: "GT America";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+@media only screen and (max-width: 767px) {
+  .button {
+    margin-top: 10px;
+  }
+}
+.CDLForm_field {
+  display: flex;
+  margin: 0 -9px;
+}
+.CDLForm_field > div {
+  padding: 0 9px;
+}
+@media only screen and (max-width: 767px) {
+  .CDLForm_field > div {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+}
+.CDLForm_field .CDLForCDLForm_city > div {
+  display: flex;
+  position: relative;
+}
+.CDLForm_field .CDLForCDLForm_city > div > div {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 8px);
+  max-width: 100%;
+  border: none;
+  box-shadow: 0.75px 0.75px 0px #d0d3d6;
+  border-radius: 0;
+  background-color: #fff;
+}
+.CDLForm_field .CDLForCDLForm_city > div > div > div:last-child {
+  display: none;
+}
+.CDLForm_field .CDLForCDLForm_city > div > div > div {
+  color: #011627;
+  padding: 11px 8px !important;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.CDLForm_field .CDLForCDLForm_city > div > div > div:hover {
+  background-color: #011627;
+  color: #fff;
+}
+.CDLForm_field .CDLForCDLForm_city .drop-down-item {
+  color: #000 !important;
+}
+.CDLForm_field .CDLForCDLForm_city > div input,
+.CDLForm_field input {
+  background-color: #fff;
+  padding: 13px 15px;
+  width: 100%;
+  border: inherit;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+.CDLForm_field .CDLForCDLForm_city > div input {
+  padding: 14px 15px;
+}
+.CDLForm_field select {
+  width: 100%;
+  height: 100%;
+  padding: 13.5px 5px 13.5px 15px;
+  border: inherit;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  outline: none;
+  height: 50px;
+}
+@media only screen and (max-width: 767px) {
+  .CDLForm_field {
+    flex-wrap: wrap;
+  }
+}
+
+.CDLForm_alertsWrammer {
+  margin-top: 35px !important;
+  background: none !important;
+  margin-bottom: 5px;
+}
+.CDLForm_errorMessage {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #ff0035;
+  margin-top: 4px;
+}
+.CDLForm_fieldWrapper {
+  border: 1px solid transparent;
+}
+.CDLForm_error {
+  border: 1px solid #ff0035;
+  border-radius: 5px;
+}
+.CDLForm_successfulIcon {
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 22px;
+}
+.CDLForm_successfulText {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.styles_autoCompleteContainer {
+  width: 100%;
+  z-index: 20;
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  position: relative;
+  min-height: 49px;
+}
+.styles_autoCompleteContainer .searchInput {
+  width: inherit;
+  border: none;
+  background: transparent;
+  opacity: 1;
+}
+.styles_autoCompleteContainer .styles_suggestions {
+  position: absolute;
+  top: calc(100% + 8px);
+  max-width: 100%;
+  width: 100%;
+  border: none;
+  -webkit-box-shadow: 0.75px 0.75px 0px #d0d3d6;
+  box-shadow: 0.75px 0.75px 0px #d0d3d6;
+  border-radius: 0;
+  background-color: #fff;
+}
+@media (max-width: 900px) {
+  .styles_autoCompleteContainer .styles_suggestions {
+    width: 113.3%;
+  }
+}
+.styles_autoCompleteContainer .styles_suggestions .styles_suggestionOption {
+  cursor: pointer;
+  padding: 0rem 0.8rem;
+  background-color: #fff;
+}
+.styles_autoCompleteContainer .styles_suggestions .styles_active {
+  background-color: #fafafa;
+}
+.styles_autoCompleteContainer .styles_suggestions .styles_separator {
+  background-color: white;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.styles_autoCompleteContainer .styles_suggestionOption {
+  color: #011627;
+  padding: 11px 8px !important;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.styles_autoCompleteContainer .styles_suggestionOption:hover {
+  background-color: #011627;
+  color: #fff;
+}
+
+.radioButton {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex !important;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center !important;
+  background-color: inherit !important;
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  color: #000000 !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.radioButton.active::before {
+  -webkit-box-shadow: 0px 0px 0px 7px #011627 inset;
+  box-shadow: 0px 0px 0px 7px #011627 inset;
+  border-color: #011627;
+}
+.radioButton::before {
+  content: "";
+  display: block;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+  border: 2px solid #dbdbdb;
+  border-radius: 24px;
+}
+.btn-group input {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+.customSelect__control {
+  max-height: 51px;
+  border-color: transparent !important;
+  border-radius: 0 !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.customSelect__single-value,
+.customSelect__placeholder {
+  border: none;
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  color: #acb3b8 !important;
+  outline: none !important;
+}
+
+.customSelect__indicator-separator {
+  display: none;
+}
+
+.customSelect__menu {
+  padding: 0 !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: 0.75px 0.75px 0px #d0d3d6 !important;
+}
+
+.customSelect__option {
+  background: #fff !important;
+  padding: 11px 8px !important;
+  font-family: "Roboto" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 21px !important;
+  border: none !important;
+  margin: 0 !important;
+}
+.customSelect__menu > div > div:hover {
+  background-color: #011627 !important;
+  color: #fff;
+}
+
+.customSelect__value-container {
+  padding: 0px 0px 0px 14px !important;
+}

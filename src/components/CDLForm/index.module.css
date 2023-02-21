@@ -1,0 +1,193 @@
+.wrapper {
+  background: #e8e9ea;
+  border-radius: 12px;
+  padding: 30px 35px 30px 25px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.title {
+  font-family: "GT America";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 32px !important;
+  line-height: 39px !important;
+  color: #000;
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 767px) {
+  .title {
+    margin-bottom: 20px;
+  }
+}
+.subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000;
+}
+.body {
+  margin-top: 32px;
+}
+@media only screen and (max-width: 767px) {
+  .body {
+    margin-top: 20px;
+  }
+}
+.properties {
+  margin-bottom: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 767px) {
+  .properties {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.property {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 30px;
+}
+.property:last-child {
+  margin-right: 0;
+}
+.property span {
+  margin-left: 8px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+}
+@media only screen and (max-width: 767px) {
+  .property {
+    margin-bottom: 12px;
+  }
+}
+.button {
+  background: #011627;
+  margin-top: 25px;
+  padding: 10px;
+  font-family: "GT America";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  width: 100%;
+}
+@media only screen and (max-width: 767px) {
+  .button {
+    margin-top: 10px;
+  }
+}
+.fields {
+  display: flex;
+  margin: 0 -9px;
+}
+.fields > div {
+  padding: 0 9px;
+}
+@media only screen and (max-width: 767px) {
+  .fields > div {
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+}
+.fields .city > div {
+  display: flex;
+  position: relative;
+}
+.fields .city > div > div {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 8px);
+  max-width: 100%;
+  border: none;
+  box-shadow: 0.75px 0.75px 0px #d0d3d6;
+  border-radius: 0;
+  background-color: #fff;
+}
+.fields .city > div > div > div:last-child {
+  display: none;
+}
+.fields .city > div > div > div {
+  color: #011627;
+  padding: 11px 8px !important;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.fields .city > div > div > div:hover {
+  background-color: #011627;
+  color: #fff;
+}
+.fields .city .drop-down-item {
+  color: #000 !important;
+}
+.fields .city > div input,
+.fields input {
+  background-color: #fff;
+  padding: 13px 15px;
+  width: 100%;
+  border: inherit;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+.fields .city > div input {
+  padding: 14px 15px;
+}
+.fields select {
+  width: 100%;
+  height: 100%;
+  padding: 13.5px 5px 13.5px 15px;
+  border: inherit;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 21px;
+  outline: none;
+  height: 50px;
+}
+@media only screen and (max-width: 767px) {
+  .fields {
+    flex-wrap: wrap;
+  }
+}
+.alertsWrammer {
+  margin-top: 35px;
+  margin-bottom: 5px;
+}
+.errorMessage {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #ff0035;
+  margin-top: 4px;
+}
+.fieldWrapper {
+  border: 1px solid transparent;
+}
+.error {
+  border: 1px solid #ff0035;
+}
+.successfulIcon {
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 22px;
+}
+.successfulText {
+  text-align: center;
+  margin-bottom: 75px;
+}

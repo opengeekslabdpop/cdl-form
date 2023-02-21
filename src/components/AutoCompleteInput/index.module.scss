@@ -1,0 +1,39 @@
+.autoCompleteContainer {
+  width: 100%;
+  z-index: 20;
+
+  .searchInput {
+    width: inherit;
+    border: none;
+    background: transparent;
+    opacity: 1;
+    height: 100%;
+  }
+
+  .suggestions {
+    border-style: solid;
+    border-color: #011627;
+    border-width: 2px;
+    border-top: none;
+    width: 112.3%;
+    border-radius: 0px 0px 10px 10px;
+
+    @media (max-width: 900px) {
+      width: 113.3%;
+    }
+
+    .suggestionOption {
+      cursor: pointer;
+      padding: 0rem 0.8rem;
+      background-color: #ffffff;
+    }
+    .active {
+      background-color: #fafafa;
+    }
+
+    .separator {
+      background-color: white;
+      border-radius: 0px 0px 8px 8px;
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "signUpFleet": "Sign up your fleet",
+  "signUp": "Sign up",
+  "signIn": "Sign in",
+  "callUs": "Or call us",
+  "nearbyJobs": "Nearby Jobs",
+  "forFleets": "Fleets",
+  "jobs": "Jobs",
+  "news": "News",
+  "blog": "Blog",
+  "forCarries": "For carriers",
+  "drivers": "Drivers",
+  "enterPhone": "Enter phone number",
+  "signUpNow": "Sign up now",
+  "more": "More",
+  "footer": {
+    "company": "Company",
+    "truckingJobs": "Trucking Jobs Technologies, Inc",
+    "about": "About",
+    "career": "Careers",
+    "privacyPolicy": "Privacy Policy",
+    "termsConditions": "Terms & Conditions",
+    "follow": "Follow Us",
+    "contacts": "Contact Us",
+    "job": {
+      "title": "Job",
+      "inCalifornia": "Jobs in California",
+      "inGeorgia": "Jobs in Georgia",
+      "inTexas": "Jobs in Texas",
+      "cdlCarrier": "CDL Carrier"
+    }
+  },
+  "about": {
+    "title": "Our mission",
+    "text": "Our vision is to empower a skilled industrial workforce. We believe the workforce of commercial trucking has changed and both professional drivers and commercial fleets need a new way to find work together. To start, we aim to be the platform of choice that drives the workforce of commercial trucking."
+  },
+  "language": {
+    "title": "Language",
+    "list": {
+      "en": "English",
+      "zh": "Chinese",
+      "pa": "Punjabi",
+      "ru": "Russian",
+      "es": "Spanish",
+      "fil": "Tagalog",
+      "vi": "Vietnamese"
+    }
+  },
+  "blogPage": {
+    "title": "Shifting Gears",
+    "description": "Stay updated with the latest news in the trucking industry with Haul: how to land flexible CDL jobs, trucking industry trends, Haul product updates, and more."
+  },
+  "darkTheme": "Dark theme",
+  "lightTheme": "Light theme",
+  "onramp": "On Ramp",
+  "start": "Start",
+  "back": "Back",
+  "latest": "Haul in the News",
+  "author": "Author",
+  "notFound": "This page could not be found.",
+  "benefits": {
+    "haulBenefits": "The Haul Benefits",
+
+    "medical": "Medical",
+    "dental": "Dental",
+    "vision": "Vision",
+    "lifeInsurance": "Life Insurance",
+    "instantPay": "Instant Pay",
+    "bonus": "Paid Time Off",
+    "training": "Continuous Training",
+    "dispatch": "Dispatch/Medical Support",
+    "holidays": "Holiday Pay",
+    "credentials": "Credentials Stay With You"
+  },
+  "allArticles": "See All Articles",
+  "requiredField": "Is a required field",
+  "clickNearbyJobs": "Click Here to see Nearby Jobs",
+  "createJobAlert": "Create job alert",
+  "findBetterCDL": "Find better CDL jobs with Haul alerts",
+  "setupFreeCDL": "Setup free CDL job alerts",
+  "thanksSigningUp": "Thanks for signing up",
+  "dailyAlerts": "Daily Alerts",
+  "weeklyAlerts": "Weekly Alerts",
+  "CDLproperties": {
+    "oneClick": "Apply with 1 click",
+    "updates": "Email/SMS updates",
+    "alerts": "Daily or weekly updates"
+  },
+  "PhoneNotValid": "Phone number is not valid",
+  "EmailNotValid": "Email is not valid"
+}
